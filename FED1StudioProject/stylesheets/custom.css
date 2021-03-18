@@ -1,0 +1,66 @@
+﻿/*#region Links*/
+nav ul{
+    background-color: burlywood;
+    padding: 0;
+    border: 1px solid black;
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    padding: .4em 1em;
+    color: navy;
+    transition: .15s ease;
+    display: block;
+}
+a{
+    color: aquamarine;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{
+color: burlywood;
+background-color: navy;
+}
+/*#endregion*/
+/*#region Header*/
+header{
+    background-color: olivedrab;
+    border: 2px solid black;
+}
+#headerInfo{
+    float: right;
+    font-weight: bold;
+}
+/*#endregion*/
+/*#region Images*/
+#aboutUs img{
+    height: 50px;
+    width: auto;
+}
+#homeImage1{
+    float: left;
+}
+#homeImage2{
+    float: right;
+}
+
+head img{
+    float: left;
+}
+/*#endregion*/
+/*#region Body*/
+body{
+     background-color: rgba(82, 44, 85, 0.88);
+}
+/*#endregion*/
+/*#region Contact Page*/
+#contactPage{
+    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
+}
+#contactPage h1 a{
+    text-decoration: none;
+}
+/*#endregion*/
