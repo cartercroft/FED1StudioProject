@@ -70,6 +70,12 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="images\headerImage.jfif" />
+    <Content Include="images\headerImage.jpg" />
+    <Content Include="images\instructor1.jpg" />
+    <Content Include="images\mainBackground.jpg" />
+    <Content Include="images\member1.jpg" />
+    <Content Include="images\musicSheet.jpg" />
+    <Content Include="images\WallOfGuitars.jpg" />
     <Content Include="index.html" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />

@@ -1,66 +1,288 @@
-﻿/*#region Links*/
-nav ul{
-    background-color: burlywood;
-    padding: 0;
-    border: 1px solid black;
+﻿body {
+    background-image: url(/images/mainBackground.jpg);
+    margin: 0 auto;
+    padding: 0 10%;
 }
-nav ul li{
-    display:inline-block;
+
+main {
+    font-size: 14px !important;
 }
-nav ul li a{
-    padding: .4em 1em;
-    color: navy;
-    transition: .15s ease;
-    display: block;
+
+    main section {
+        padding-top: 1.43em;
+        padding-bottom: 2.14em;
+    }
+
+.center {
+    text-align: center;
+    align-content: center;
 }
-a{
+
+#aboutUs {
+    width: 40%;
+    margin-left: 35%;
+    padding-top: 8%;
+}
+
+#aboutUs article{
+    margin-right: 10%;
+}
+
+#aboutUsImage{
+    margin-top: 7%;
+    margin-left: 8%;
+    float: left;
+    height: 17.14rem;
+    width: 17.14rem;
+}
+
+/*#region Index Grid*/
+
+/*#endregion*/
+/*#region Navigation*/
+nav {
+    height: 8.5rem;
+    font-size: 2rem;
+}
+
+    nav ul {
+        background: linear-gradient(66deg, rgba(131,58,180,1) 10%, rgba(131,58,231,1) 40%, rgba(0,0,0,1) 75%);
+        padding: 0;
+        border: 4px solid rgb(255,208,76);
+        align-content: center;
+        width: inherit;
+        margin: 0;
+    }
+
+        nav ul li {
+            display: inline-block;
+            border: none;
+        }
+
+            nav ul li a {
+                padding: .4em 1em;
+                color: navy;
+                transition: .15s ease;
+                display: block;
+            }
+
+a {
     color: aquamarine;
-    text-decoration:none;
-    font-weight:bold;
+    text-decoration: none;
+    font-weight: bold;
 }
-nav a:hover{
-color: burlywood;
-background-color: navy;
+
+nav a:hover {
+    color: burlywood;
+    background-color: navy;
 }
 /*#endregion*/
-/*#region Header*/
-header{
-    background-color: olivedrab;
-    border: 2px solid black;
+/*#region Headers*/
+header {
+    background-color: darkgray;
+    background-image: url(/images/musicSheet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid rgb(255,208,76);
+    border-bottom: none;
+    height: 23em;
+    width: inherit;
+    position: relative;
 }
-#headerInfo{
+
+    header img {
+        padding: 3% 1%;
+        border-radius: 25em;
+    }
+
+#headerInfo {
     float: right;
     font-weight: bold;
+}
+
+#headContactInfo {
+    float: right;
+    padding-right: 1%;
+}
+
+header h1 {
+    font-size: 3em;
+    color: black;
+    text-shadow: 10px 20px 5px rgba(191,170,10,1);
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    bottom: 10%;
+    display: inline-block;
 }
 /*#endregion*/
 /*#region Images*/
-#aboutUs img{
-    height: 50px;
-    width: auto;
-}
-#homeImage1{
-    float: left;
-}
-#homeImage2{
-    float: right;
+img {
+    height: 9.14rem;
+    width: 9.14rem;
 }
 
-head img{
+#headerImage {
     float: left;
+    height: 14.28em;
+    width: 17.85em;
+}
+
+#homeImage1 {
+    padding-top: 2.5%;
+    width: 50%;
+    height: 15.52rem;
+    float: left;
+}
+
+#homeImage2 {
+    width: 50%;
+    height: 15.52rem;
+    float: right;
 }
 /*#endregion*/
 /*#region Body*/
-body{
-     background-color: rgba(82, 44, 85, 0.88);
+.outerContainer {
+    background-color: rgba(248,227,196, .8);
+    position: relative;
 }
+
 /*#endregion*/
 /*#region Contact Page*/
-#contactPage{
+#contactPage {
+    display: block;
     font-weight: bold;
     list-style-type: none;
-    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 10%;
+    margin-bottom: 10%;
 }
-#contactPage h1 a{
-    text-decoration: none;
+
+    #contactPage li {
+        text-align: left;
+    }
+
+        #contactPage li * {
+            text-decoration: none;
+            color: black;
+            margin-left: 1.5rem;
+        }
+
+            #contactPage li a:hover {
+                text-decoration: underline;
+                color: aqua;
+            }
+
+.contactMain {
+    padding-bottom: 1%;
+}
+.contactMain h1 {
+    padding-top: 1%;
 }
 /*#endregion*/
+ul {
+    display: block;
+    background-color: rgba(248,227,196, .8);
+    align-content: center;
+}
+
+    ul li {
+        text-align: left;
+        border: 1px black dashed;
+    }
+
+#aboutUs h2 {
+    text-decoration: underline;
+    padding-bottom: .3rem;
+}
+
+footer {
+    background-color: darkgray;
+    height: 7.15rem;
+    position: relative;
+}
+
+    footer h5 {
+        position: absolute;
+        top: 25%;
+        padding-left: 1rem;
+    }
+
+.whyChooseUs {
+    overflow: hidden;
+    margin-top: 7rem;
+}
+
+    .whyChooseUs section {
+        padding-top: 5%;
+        height: 30%;
+        padding-bottom: 0;
+    }
+
+.whyChooseUsTop img {
+    display: block;
+}
+
+.gridItem {
+    padding: 2.5rem 1rem;
+    padding-top: .6%;
+    margin-top: .9rem;
+}
+
+.gridItem p, .gridItem h1 {
+    margin-left: 1rem;
+}
+
+.item {
+    width: 16.79rem;
+}
+
+    .item img {
+        width: inherit;
+        height: 16.79rem;
+    }
+
+
+
+.teamAside {
+    border: 1px solid rgb(255,208,76);
+    padding: .6rem;
+    width: 20%;
+    background-color: rgb(248,227,196);
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    overflow: auto;
+}
+.teamAside h2 {
+    border: 3px rgb(255,208,76) solid;
+}
+.asideList li {
+    border: none;
+    font-size: 1.5rem;
+    margin: 0 .3rem;
+
+}
+
+.asideList li a{
+    color: rgb(162, 121, 0);
+}
+#meetOurTeam {
+    display: inline-block;
+    width: 70%;
+}
+
+.teamMember {
+    margin-bottom: 7.15rem;
+    margin-left: 2.2rem;
+}
+
+.teamMemberImage {
+    margin: 1.05em;
+    height: 10.3rem;
+    width: 10.3rem;
+    border-radius: 50%;
+    float: left;
+}
