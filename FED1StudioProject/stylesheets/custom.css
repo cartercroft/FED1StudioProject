@@ -1,7 +1,7 @@
 ﻿body {
     background-image: url(/images/mainBackground.jpg);
     margin: 0 auto;
-    padding: 0 10%;
+    padding: 0 11%;
 }
 
 main {
@@ -24,11 +24,11 @@ main {
     padding-top: 8%;
 }
 
-#aboutUs article{
-    margin-right: 10%;
-}
+    #aboutUs article {
+        margin-right: 10%;
+    }
 
-#aboutUsImage{
+#aboutUsImage {
     margin-top: 7%;
     margin-left: 8%;
     float: left;
@@ -169,17 +169,18 @@ img {
             margin-left: 1.5rem;
         }
 
-            #contactPage li a:hover {
-                text-decoration: underline;
-                color: aqua;
-            }
+        #contactPage li a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
 
 .contactMain {
     padding-bottom: 1%;
 }
-.contactMain h1 {
-    padding-top: 1%;
-}
+
+    .contactMain h1 {
+        padding-top: 1%;
+    }
 /*#endregion*/
 ul {
     display: block;
@@ -230,9 +231,9 @@ footer {
     margin-top: .9rem;
 }
 
-.gridItem p, .gridItem h1 {
-    margin-left: 1rem;
-}
+    .gridItem p, .gridItem h1 {
+        margin-left: 1rem;
+    }
 
 .item {
     width: 16.79rem;
@@ -256,19 +257,21 @@ footer {
     right: 0;
     overflow: auto;
 }
-.teamAside h2 {
-    border: 3px rgb(255,208,76) solid;
-}
+
+    .teamAside h2 {
+        border: 3px rgb(255,208,76) solid;
+    }
+
 .asideList li {
     border: none;
     font-size: 1.5rem;
     margin: 0 .3rem;
-
 }
 
-.asideList li a{
-    color: rgb(162, 121, 0);
-}
+    .asideList li a {
+        color: rgb(162, 121, 0);
+    }
+
 #meetOurTeam {
     display: inline-block;
     width: 70%;
@@ -285,4 +288,30 @@ footer {
     width: 10.3rem;
     border-radius: 50%;
     float: left;
+}
+
+.flexGrid3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem;
+    background: none;
+    line-height: 1rem;
+}
+
+.classesItem {
+    padding: 1.07rem;
+    padding-top: 1.42rem;
+    height: 20rem;
+    background-color: #bbb8de;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+    .classesItem p {
+        width: inherit;
+        padding: 0 .25rem;
+    }
+
+.classItemBox {
+    margin: 0 1rem;
 }
