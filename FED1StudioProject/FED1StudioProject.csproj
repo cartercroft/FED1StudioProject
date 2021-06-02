@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administration.html" />
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="favicon.ico" />
     <Content Include="images\headerImage.jfif" />
     <Content Include="images\headerImage.jpg" />
     <Content Include="images\instructor1.jpg" />
@@ -77,6 +79,8 @@
     <Content Include="images\musicSheet.jpg" />
     <Content Include="images\WallOfGuitars.jpg" />
     <Content Include="index.html" />
+    <Content Include="Instructors.html" />
+    <Content Include="Sales.html" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
