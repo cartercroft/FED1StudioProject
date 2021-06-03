@@ -17,7 +17,6 @@ main {
 
 .center {
     text-align: center;
-    align-content: center;
 }
 
 #aboutUs {
@@ -38,12 +37,13 @@ main {
     width: 17.14rem;
 }
 
-/*#region Index Grid*/
+#meetOurTeam h1{
+    margin-left: 20%;
+}
 
-/*#endregion*/
 /*#region Navigation*/
 nav {
-    height: 8.5rem;
+    /*height: 8.5rem;*/
     font-size: 2rem;
 }
 
@@ -184,6 +184,31 @@ img {
         padding-top: 1%;
     }
 /*#endregion*/
+/*#region Classes Accordion*/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+/*#endregion*/
 ul {
     display: block;
     background-color: rgba(248,227,196, .8);
@@ -318,6 +343,25 @@ footer {
     margin: 0 1rem;
 }
 
-#meetOurTeam{
+#meetOurTeam {
     font-size: 16px !important;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+tr{
+    background-color:aliceblue;
+    overflow: hidden;
+}
+tr:nth-child(2n+1){
+    background-color: lavender;
+}
+th {
+    background-color: rgb(191,191,191);
+    border: black 1px solid;
+}
+td{
+    padding: 1%;
 }

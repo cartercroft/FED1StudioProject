@@ -81,6 +81,7 @@
     <Content Include="index.html" />
     <Content Include="Instructors.html" />
     <Content Include="Sales.html" />
+    <Content Include="scripts\custom.js" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
@@ -97,9 +98,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
