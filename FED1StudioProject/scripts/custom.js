@@ -16,3 +16,16 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+/* Opens accordion section when clicking on respective card */
+var cards = document.getElementsByClassName("classLink");
+for (i = 0; i < cards.length; i++) {
+    cards[i].addEventListener("click", function () {
+        var id = this.getAttribute("href");
+        //Line below trims the # off of the href attribute
+        id = id.replace('#', '');
+        var table = document.getElementById(id);
+        table.nextElementSibling.style.display = "block";
+        console.log(id);
+    })
+}
